@@ -19,6 +19,7 @@
 		E514FE2E181035B600FCBA55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E514FE16181035B600FCBA55 /* UIKit.framework */; };
 		E514FE36181035B600FCBA55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E514FE34181035B600FCBA55 /* InfoPlist.strings */; };
 		E514FE38181035B600FCBA55 /* TalkAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E514FE37181035B600FCBA55 /* TalkAppTests.m */; };
+		E514FE421810373B00FCBA55 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E514FE411810373B00FCBA55 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E514FE33181035B600FCBA55 /* TalkAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkAppTests-Info.plist"; sourceTree = "<group>"; };
 		E514FE35181035B600FCBA55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E514FE37181035B600FCBA55 /* TalkAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkAppTests.m; sourceTree = "<group>"; };
+		E514FE411810373B00FCBA55 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E514FE06181035B500FCBA55 = {
 			isa = PBXGroup;
 			children = (
+				E514FE411810373B00FCBA55 /* index.html */,
 				E514FE18181035B600FCBA55 /* TalkApp */,
 				E514FE31181035B600FCBA55 /* TalkAppTests */,
 				E514FE11181035B600FCBA55 /* Frameworks */,
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E514FE421810373B00FCBA55 /* index.html in Resources */,
 				E514FE1D181035B600FCBA55 /* InfoPlist.strings in Resources */,
 				E514FE25181035B600FCBA55 /* Images.xcassets in Resources */,
 			);
